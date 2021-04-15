@@ -16,6 +16,8 @@ export class DateToggleComponent implements OnChanges {
   constructor (private fromNowPipe: FromNowPipe) { }
 
   ngOnChanges () {
+    console.log('on changes')
+
     this.updateDates()
   }
 
